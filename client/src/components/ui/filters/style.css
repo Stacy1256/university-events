@@ -1,0 +1,43 @@
+.filter-button {
+    background-color: rgba(0, 44, 241, 0.98);
+    border-radius: 55px;
+    border: 1px solid rgba(1, 39, 207, 0.98);
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    margin: 4%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 50px;
+    font-size: 100%;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .filter-button:active {
+    position: relative;
+    top: 1px;
+  }
+  .filter-error-text {
+    color: red;
+    font-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .filter-header-text {
+    font-size: 150%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    color: rgb(0, 0, 189);
+  }
+  .filter-text {
+    font-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+  }
+  

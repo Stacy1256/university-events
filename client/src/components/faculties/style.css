@@ -1,0 +1,26 @@
+.faculty-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.faculty-text {
+  font-size: 150%;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 1%;
+}
+.faculty-image-container {
+  width: 10%;
+  height: 10%;
+}
+.department-text {
+  font-size: 100%;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 1%;
+}
+.dep-image-container {
+  width: 8%;
+  height: 8%;
+}

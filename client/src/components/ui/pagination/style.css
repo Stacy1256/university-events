@@ -1,0 +1,15 @@
+.pagination-container{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-button{
+    border: solid 3px #0127cf;
+    background-color: white;
+    width: 3%;
+    height: 50px;
+    font-size: 160%;
+    /*border-radius: 100%;*/
+    cursor: pointer;
+    margin: 1%;
+}

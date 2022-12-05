@@ -1,0 +1,24 @@
+.event-main-text{ 
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.filter-logo{
+    width: 2%;
+    height: 2%;
+    cursor: pointer;
+    margin-left: 90%;
+    
+}
+.event-text{
+    margin-left: 2%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.event-input{
+    margin-left: 2%;
+    width: 12%;
+    height: 25px;
+    border-color: rgba(0, 44, 241, 0.98);
+    font-size: 110%;
+}

@@ -1,0 +1,34 @@
+{
+  "id": 469486,
+  "num_rows": 20,
+  "file_format": "sql",
+  "name": "users.user",
+  "table_name": "users.user",
+  "include_create_sql": false,
+  "columns": [
+    {
+      "name": "role_id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": "(this-1) / 10 + 1"
+    },
+    {
+      "name": "full_name",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    },
+    {
+      "name": "email",
+      "null_percentage": 0,
+      "type": "Email Address",
+      "formula": null
+    },
+    {
+      "name": "password_hash",
+      "null_percentage": 0,
+      "type": "SHA256",
+      "formula": null
+    }
+  ]
+}

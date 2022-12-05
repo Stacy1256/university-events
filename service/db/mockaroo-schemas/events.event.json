@@ -1,0 +1,73 @@
+{
+  "id": 469512,
+  "num_rows": 20,
+  "file_format": "sql",
+  "name": "events.event",
+  "table_name": "events.event",
+  "include_create_sql": false,
+  "columns": [
+    {
+      "name": "creator_user_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 11,
+      "max": 20,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "title",
+      "null_percentage": 0,
+      "type": "Sentences",
+      "min": 1,
+      "max": 1,
+      "formula": null
+    },
+    {
+      "name": "description",
+      "null_percentage": 0,
+      "type": "Sentences",
+      "min": 1,
+      "max": 5,
+      "formula": null
+    },
+    {
+      "name": "image_url",
+      "null_percentage": 0,
+      "type": "Dummy Image URL",
+      "minHeight": 100,
+      "maxHeight": 250,
+      "minWidth": 100,
+      "maxWidth": 250,
+      "format": "png",
+      "formula": null
+    },
+    {
+      "name": "department_id",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 20,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "starts_at",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "01/01/2023",
+      "max": "12/30/2025",
+      "format": "%Y-%m-%d %H:%M:%S",
+      "formula": null
+    },
+    {
+      "name": "ends_at",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "01/01/2023",
+      "max": "12/30/2025",
+      "format": "%Y-%m-%d %H:%M:%S",
+      "formula": "starts_at + minutes(random(30, 60*12*3))"
+    }
+  ]
+}

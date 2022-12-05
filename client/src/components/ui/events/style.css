@@ -1,0 +1,26 @@
+.event-container{
+    border: 4px solid rgba(0, 29, 160, 0.98);
+    align-items: center;
+    margin: 2%;
+    text-align: center;
+}
+.event-header-text{
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: bold;
+    color: rgb(0, 0, 146);
+}
+.event-container-text{
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.event-date-text{
+    font-size: 125%;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.event-list{
+    list-style-type: none;
+}

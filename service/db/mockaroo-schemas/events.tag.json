@@ -1,0 +1,22 @@
+{
+  "id": 469514,
+  "num_rows": 20,
+  "file_format": "sql",
+  "name": "events.tag",
+  "table_name": "events.tag",
+  "include_create_sql": false,
+  "columns": [
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "Buzzword",
+      "formula": "lower(this)"
+    },
+    {
+      "name": "color",
+      "null_percentage": 0,
+      "type": "Hex Color",
+      "formula": null
+    }
+  ]
+}

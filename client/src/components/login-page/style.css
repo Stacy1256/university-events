@@ -1,0 +1,77 @@
+.login-form {
+  border: solid 4px rgba(1, 39, 207, 0.98);
+  border-radius: 50px;
+  width: 25%;
+  justify-content: center;
+  margin: 6.5% auto 5%;
+  height: 10%;
+  padding: 2%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 150%;
+  font-family: Georgia, serif;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+.login-input-field {
+  padding: 16px;
+  font-size: 80%;
+  border-width: 0px;
+  width: 50%;
+  height: 25px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: black;
+  border-style: dashed;
+  border-radius: 50px;
+  box-shadow: 0px 0px 6px rgba(0, 46, 245, 0.98);
+}
+.login-input-field-password {
+  padding: 16px;
+  font-size: 16px;
+  border-width: 0px;
+  width: 50%;
+  height: 25px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: black;
+  border-style: dashed;
+  border-radius: 50px;
+  box-shadow: 0px 0px 6px rgba(0, 46, 245, 0.98);
+}
+.login-link {
+  text-decoration: none;
+}
+.login-button {
+  background-color: rgba(0, 44, 241, 0.98);
+  border-radius: 55px;
+  border: 1px solid rgba(1, 39, 207, 0.98);
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  margin: 4%;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-left: 25%;
+  width: 50%;
+  height: 50px;
+  font-size: 100%;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login-button:active {
+  position: relative;
+  top: 1px;
+}
+.login-error-text{
+  color: red;
+  font-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}

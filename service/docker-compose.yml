@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  uni-api:
+    image: uni-api
+    build:
+      context: .
+    ports:
+    - 8080:3000
+    network_mode: bridge
